@@ -1,0 +1,23 @@
+Estructura de componentes(padres - Hijos)
+
+Niveles
+  1 => Raiz
+  2 => Superior
+  3 => Medio
+  4 => Inferior
+
+1)HomeComponent
+  (2)-SmartBarComponent
+  (2)-HeaderComponent
+  (2)-WelcomeComponent
+	(3)-MessageWelcomeComponent
+  (2)-CourseSelectiónComponent
+	(3)-FilterCoursesComponent
+		(4)-CardCourseComponent
+		(4)-ModalCourseComponent
+  (2)-ContainBenefitisComponent
+	(3)-BefitisComponent
+  (2)-PopularCoursesComponent
+	(3)-CardCourseComponent
+  (2)-ContainCategoriaComponent
+	(3)-CardCategoriaComponent
